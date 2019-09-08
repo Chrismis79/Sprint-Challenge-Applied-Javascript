@@ -30,19 +30,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+DOM stands for Document Object Model.The DOM is visible inside the inspector tools and is the result of the parsed HTML. You can use the DOM to manipulate HTML and CSS (while not changing the actual file). It is basically where all the action happens.    
+
 2. What is an event?
+
+An event is registered by JS with different event handlers on elements in the HTML. Used with functions that are excuted when the event occurs, such as a 'click.'
 
 3. What is an event listener?
 
+An event listener is a method that attaches an event handler to an element. Several different handlers can be added to the same element and they all work. 
+
 4. Why would we convert a NodeList into an Array?
+
+A node list is like an array, but it doesn't have the array methods available to it. So to be able to use anything other than .forEach, you have to change it into an array to use the other array methods.
 
 5. What is a component?
 
+Components are chunks of reusable code that can be used to build elements that share functionality and styling. They are the building blocks of modern web development.
+
 ### Git Set up
 
-* [ ] Fork the project into your GitHub user account
-* [ ] Clone the forked project into a directory on your machine
-* [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+* [x] Fork the project into your GitHub user account
+* [x] Clone the forked project into a directory on your machine
+* [] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
 * [ ] You are now ready to build this project with your preferred IDE
 
 ## Minimum Viable Product
